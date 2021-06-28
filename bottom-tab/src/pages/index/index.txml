@@ -1,0 +1,21 @@
+<view tiki:if="{{ready}}">
+  <view class="list-wrap">
+    <view class="list-container" style="{{ transform: 'translate3d(' +(-activeTab * 100) + 'vw, 0, 0)' }}">
+      <view class="list" style="{{ height: activeTab === 0 ? 'auto' : 0 }}">
+        Tab 1
+      </view>
+      <view class="list" style="{{ height: activeTab === 1 ? 'auto' : 0 }}">
+        Tab 2
+      </view>
+    </view>
+  </view>
+  <view class="tabs">
+    <view class="tabs-bar">
+      <block tiki:for="{{tabs}}">
+        <view class="tabs-bar-tab" data-index="{{index}}" onTap="onTabBarTap">
+          <view class="tabs-bar-tab-title {{activeTab === index ? 'active' : ''}}">{{item.name}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+{
+  "name": "bottom-tab",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "tiniapp.example.bottomtab",
+    "buildNumber": 1
+  }
+}
