@@ -1,0 +1,59 @@
+<!-- <view class="container"> -->
+<!--   <view class="header"> -->
+<!--     <text class="greeting" number-of-lines="{{1}}"> -->
+<!--       Hi, I'm Tini App! -->
+<!--     </text> -->
+<!--     <image class="cart" --> 
+<!--       src="{{ fixedHeader? '../../images/cart-black.svg' : '../../images/cart-white.svg'}}" /> -->
+<!--     <!-1- <input syle="display: flex" placeholder="Search..." /> -1-> -->
+<!--   </view> -->
+<!--   <view class="content"> -->
+<!--     <view tiki:for="{{items}}" class="content-item" /> -->
+<!--   </view> -->
+<!-- </view> -->
+
+
+<view class="wrap {{fixedHeader ? 'fix-search' : ''}}" id="wrap">
+  
+  <view class="top-header">
+    <text class="menu-icon">☰</text>
+<!--     <image class="cart" --> 
+<!--       src="{{ fixedHeader? '../../images/cart-black.svg' : '../../images/cart-white.svg'}}" /> -->
+  </view>
+  
+  <view class="search">
+    <input class="input" type="search" placeholder="Search or type URL" />
+  </view>
+  
+  <view class="top">
+    <view class="hero"></view>
+  </view>
+  
+  <view class="content">
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+  
+</view>
