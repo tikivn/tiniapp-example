@@ -2,7 +2,7 @@
   "name": "scroll-header",
   "version": "0.1.0",
   "tiki": {
-    "appIdentifier": "tiniapp.example.bottomtab",
+    "appIdentifier": "tiniapp.example.header",
     "buildNumber": 1
   }
 }
