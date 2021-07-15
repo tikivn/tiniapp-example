@@ -1,5 +1,5 @@
 {
-  "name": "scroll-header",
+  "name": "custom-header",
   "version": "0.1.0",
   "tiki": {
     "appIdentifier": "tiniapp.example.header",
