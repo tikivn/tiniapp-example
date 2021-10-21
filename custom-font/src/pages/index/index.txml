@@ -1,0 +1,5 @@
+<view>View Regular</view>
+<text>Text Regular</text>
+
+<view style="font-weight: bold">View Bold</view>
+<text style="font-weight: bold">Text Bold</text>

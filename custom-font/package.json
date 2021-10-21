@@ -1,0 +1,8 @@
+{
+  "name": "custom-font",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.example.custom_font",
+    "buildNumber": 1
+  }
+}
